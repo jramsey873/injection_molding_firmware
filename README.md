@@ -17,7 +17,7 @@
 
 ## Overview
 
-The Injection Molding Controller is an ESP32-S3 based system running on a LilyGo T-Display AMOLED. It provides:
+The Injection Molding Controller is an ESP32-S3 based system running on a LilyGo T4-S3 AMOLED. It provides:
 
 - **3 Independent PID-controlled heaters** (Chamber, Mold, Auxiliary)
 - **4 Pneumatic outputs** (Vise, Injection, Ejection, Feeder)
@@ -42,7 +42,7 @@ The Injection Molding Controller is an ESP32-S3 based system running on a LilyGo
 
 ### Display Layout
 
-The controller uses a 536×240 pixel AMOLED touchscreen display with the following navigation:
+The controller uses a 2.41" AMOLED touchscreen display (450×600 pixels) with the following navigation:
 - **Tap buttons** to interact
 - **Back arrow (←)** in top-left returns to previous screen
 - **Settings gear (⚙)** in top-right opens settings
@@ -391,7 +391,7 @@ If you experience issues after an update:
 
 | Feature | Specification |
 |---------|---------------|
-| Display | 1.91" AMOLED, 536×240, Touch |
+| Display | 2.41" AMOLED, 450×600, Touch |
 | Processor | ESP32-S3, 240MHz |
 | Flash | 16MB |
 | PSRAM | 8MB |
