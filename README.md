@@ -391,15 +391,16 @@ If you experience issues after an update:
 
 | Feature | Specification |
 |---------|---------------|
-| Display | 2.41" AMOLED, 450×600, Touch |
-| Processor | ESP32-S3, 240MHz |
+| Display | 2.41" AMOLED, 450×600, Capacitive Touch |
+| Processor | ESP32-S3R8 Dual-core LX7 @ 240MHz |
 | Flash | 16MB |
 | PSRAM | 8MB |
+| Wireless | 2.4GHz WiFi + Bluetooth 5 (LE) |
+| Storage | NVS + Micro SD slot |
 | Heater Channels | 3 (PID controlled) |
 | Pneumatic Outputs | 4 (relay controlled) |
-| Temperature Sensors | MAX31855 thermocouples |
+| Temperature Sensors | MAX31855 K-type thermocouples |
 | Temperature Range | 0-500°C |
-| WiFi | 2.4GHz 802.11 b/g/n |
 | Power | 5V USB-C |
 
 ---
