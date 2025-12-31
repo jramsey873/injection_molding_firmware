@@ -1,5 +1,5 @@
 {
   "version": "1.0.3",
-  "url": "https://github.com/jramsey873/injection_molding_firmware/releases/download/1.0.3/firmware.elf",
+  "url": "https://github.com/jramsey873/injection_molding_firmware/releases/download/1.0.3/firmware.bin",
   "notes": "Fixed heater status indicator colors"
 }
